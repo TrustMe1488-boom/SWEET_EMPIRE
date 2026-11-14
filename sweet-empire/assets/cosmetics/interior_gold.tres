@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/bakery_interior.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "gold"
+primary = Color(0.9333333, 0.8352941, 0.6235294, 1)
+secondary = Color(0.9607843, 0.9019608, 0.7960784, 1)
+accent = Color(0.8431373, 0.7176471, 0.4862745, 1)
+trim = Color(0.7254902, 0.5647059, 0.3490196, 1)
+base = Color(1.0, 0.972549, 0.9137255, 1)
+floor_accent = Color(0.9215686, 0.8509804, 0.6823529, 1)
+ink = Color(0.4392157, 0.345098, 0.2392157, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"INTERIOR_GOLD"
+display_name = "Золотой праздник"
+description = "Золотистые стены, тёплые витрины и праздничные медальоны."
+category = "INTERIOR_THEME"
+price = 60
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 18.5
+preview_rotation_speed = 0.0

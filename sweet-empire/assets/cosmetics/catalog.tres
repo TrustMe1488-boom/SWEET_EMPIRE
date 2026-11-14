@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CosmeticCatalogData" load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_catalog_data.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_classic.tres" id="3"]
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_mint.tres" id="4"]
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_lavender.tres" id="5"]
+[ext_resource type="Resource" path="res://assets/cosmetics/interior_pink.tres" id="6"]
+[ext_resource type="Resource" path="res://assets/cosmetics/interior_mint.tres" id="7"]
+[ext_resource type="Resource" path="res://assets/cosmetics/interior_gold.tres" id="8"]
+[ext_resource type="Resource" path="res://assets/cosmetics/dessert_classic.tres" id="9"]
+[ext_resource type="Resource" path="res://assets/cosmetics/dessert_caramel.tres" id="10"]
+[ext_resource type="Resource" path="res://assets/cosmetics/dessert_festive.tres" id="11"]
+
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_maid.tres" id="12"]
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_royal.tres" id="13"]
+[ext_resource type="Resource" path="res://assets/cosmetics/mia_winter.tres" id="14"]
+
+[resource]
+script = ExtResource("1")
+items = Array[ExtResource("2")]([ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")])

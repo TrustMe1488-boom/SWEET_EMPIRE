@@ -1,0 +1,92 @@
+[
+  {
+    "suite": "run_tests",
+    "exit_code": 0,
+    "result": "RESULT: 48 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage15_visual_tests",
+    "exit_code": 0,
+    "result": "PRESENTATION_RESULT: 20 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage2_tests",
+    "exit_code": 0,
+    "result": "STAGE2_RESULT: 112 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage3_tests",
+    "exit_code": 0,
+    "result": "STAGE3_RESULT: 101 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage3_campaign_sim",
+    "exit_code": 0,
+    "result": "CAMPAIGN_SIM_RESULT: 10 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage4_tests",
+    "exit_code": 0,
+    "result": "STAGE4_RESULT: 42 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage4_campaign_sim",
+    "exit_code": 0,
+    "result": "STAGE4_CAMPAIGN_SIM_RESULT: 10 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "stage5_tests",
+    "exit_code": 0,
+    "result": "STAGE5_RESULT: 78 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "check": "headless-import",
+    "exit_code": 0,
+    "critical_count": 0
+  },
+  {
+    "scene": "scenes/main_menu.tscn",
+    "exit_code": 0,
+    "critical_count": 0
+  },
+  {
+    "scene": "scenes/ui/cosmetic_shop.tscn",
+    "exit_code": 0,
+    "critical_count": 0
+  },
+  {
+    "scene": "scenes/bakery_game.tscn",
+    "exit_code": 0,
+    "critical_count": 0
+  },
+  {
+    "scene": "scenes/victory.tscn",
+    "exit_code": 0,
+    "critical_count": 0
+  },
+  {
+    "suite": "Python ML test_pipeline.py",
+    "exit_code": 0,
+    "result": "8 tests, OK"
+  },
+  {
+    "suite": "stage5_campaign_sim",
+    "exit_code": 0,
+    "result": "14 passed, 0 failed",
+    "critical_count": 0
+  },
+  {
+    "suite": "GPU stage5_render_qa",
+    "exit_code": 0,
+    "result": "46 checks, 0 failed",
+    "screenshots": 33
+  }
+]

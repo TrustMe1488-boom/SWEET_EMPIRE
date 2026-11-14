@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/bakery_interior.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "mint"
+primary = Color(0.7254902, 0.8666667, 0.8156863, 1)
+secondary = Color(0.8941176, 0.9333333, 0.8901961, 1)
+accent = Color(0.6117647, 0.745098, 0.7215686, 1)
+trim = Color(0.7882353, 0.6588235, 0.5137255, 1)
+base = Color(0.9607843, 0.9607843, 0.9098039, 1)
+floor_accent = Color(0.8627451, 0.9019608, 0.854902, 1)
+ink = Color(0.3058824, 0.427451, 0.3882353, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"INTERIOR_MINT"
+display_name = "Мятное утро"
+description = "Свежие мятные стены, светлая мебель и зелёные подвесные акценты."
+category = "INTERIOR_THEME"
+price = 30
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 18.5
+preview_rotation_speed = 0.0

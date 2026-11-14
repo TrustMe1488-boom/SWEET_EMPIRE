@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/chibi_character.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "winter"
+primary = Color(0.7254902, 0.8666667, 0.8156863, 1)
+secondary = Color(0.8941176, 0.6823529, 0.745098, 1)
+accent = Color(0.7333333, 0.6509804, 0.8431373, 1)
+trim = Color(0.9058824, 0.7686275, 0.4784314, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"MIA_WINTER"
+display_name = "Зимний кондитер"
+description = "Геометрический костюм: тёплое пальто, шарф и берет."
+category = "MIA_OUTFIT"
+price = 40
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 3.0
+preview_rotation_speed = 0.18

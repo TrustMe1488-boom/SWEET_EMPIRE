@@ -1,0 +1,11 @@
+{
+  "mediapipe": "1.2.3",
+  "opencv": "5.0.0",
+  "model_loaded": true,
+  "camera_opened": true,
+  "frames": 82,
+  "tracked_frames": 0,
+  "blank_inference_ms": 39.525300002424046,
+  "blank_hands": 0,
+  "manual_gesture_accuracy_tested": false
+}

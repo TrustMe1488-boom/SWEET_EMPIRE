@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local archives and generated ML import artifacts
+/Documentation/backups/
+/tools/ml/artifacts/*.translation
+/tools/ml/artifacts/*.import
+.ruff_cache/
+.mypy_cache/
+*.pem
+.npmrc
+.pypirc

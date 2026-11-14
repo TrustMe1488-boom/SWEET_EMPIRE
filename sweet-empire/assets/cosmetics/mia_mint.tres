@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/chibi_character.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "mint"
+primary = Color(0.8470588, 0.9254902, 0.8941176, 1)
+secondary = Color(0.5764706, 0.7843137, 0.7098039, 1)
+accent = Color(0.9529412, 0.772549, 0.8352941, 1)
+trim = Color(0.8470588, 0.6431373, 0.4666667, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"MIA_MINT"
+display_name = "Мятная Мия"
+description = "Свежая мятная форма, фартук и аккуратная лента на колпаке."
+category = "MIA_OUTFIT"
+price = 20
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 3.0
+preview_rotation_speed = 0.18

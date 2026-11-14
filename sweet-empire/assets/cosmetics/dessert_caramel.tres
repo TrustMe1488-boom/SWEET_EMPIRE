@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/cosmetic_dessert_display.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "caramel"
+primary = Color(0.8470588, 0.6431373, 0.4666667, 1)
+secondary = Color(0.9411765, 0.7803922, 0.5607843, 1)
+accent = Color(0.5568627, 0.3803922, 0.2745098, 1)
+trim = Color(1.0, 0.9490196, 0.8705882, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"DESSERT_CARAMEL"
+display_name = "Карамельная коллекция"
+description = "Карамельная глазурь и шоколадные украшения на всех четырёх десертах."
+category = "DESSERT_STYLE"
+price = 20
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 4.7
+preview_rotation_speed = 0.18

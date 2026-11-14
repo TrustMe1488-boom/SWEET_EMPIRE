@@ -1,0 +1,14 @@
+{
+  "customers": 5,
+  "draw_calls": 1939.0,
+  "frames": 180,
+  "mean_FPS": 69.3124779788481,
+  "mean_ms": 14.4274166666667,
+  "median_ms": 14.252,
+  "p95_ms": 16.14,
+  "predictor_us": 41.8749,
+  "renderer": "AMD Radeon(TM) Graphics",
+  "resolution": "1920x1080",
+  "vsync": false,
+  "zones": 3
+}

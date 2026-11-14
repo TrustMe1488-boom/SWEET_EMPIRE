@@ -1,0 +1,10 @@
+{
+  "seed": 20261114,
+  "sessions": 240,
+  "rows": 7440,
+  "target": "created admitted orders in (t,t+120], served and abandoned",
+  "synthetic": true,
+  "demand_process": "pedestrian-v1",
+  "split": "session ID modulo 10; 60/20/20",
+  "limitations": "fixed assortment/rating per session; idealized manual delivery; Rush has exact 90-second duration; no tutorial"
+}

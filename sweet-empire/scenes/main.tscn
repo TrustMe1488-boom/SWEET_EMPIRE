@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[node name="SweetEmpire" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(10, 10, 10)
+rotation_degrees = Vector3(-35.264, 45, 0)
+projection = 1
+size = 20.0
+current = true

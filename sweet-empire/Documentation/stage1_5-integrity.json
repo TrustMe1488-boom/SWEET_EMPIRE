@@ -1,0 +1,19 @@
+{
+  "project.godot": true,
+  "assets/equipment/cookie_production.tres": true,
+  "tests/run_tests.gd": true,
+  "tests/render_check.gd": true,
+  "scripts/core/item_inventory.gd": true,
+  "scripts/production/production_config.gd": true,
+  "scripts/production/production_station.gd": true,
+  "scripts/production/station_inventory.gd": true,
+  "scripts/player/tray_inventory.gd": true,
+  "scripts/checkout/checkout_inventory.gd": true,
+  "scripts/delivery/delivery_service.gd": true,
+  "scripts/customers/queue_manager.gd": true,
+  "scripts/customers/customer_spawner.gd": true,
+  "scripts/checkout/cashier_controller.gd": true,
+  "scripts/checkout/sale_processor.gd": true,
+  "scripts/economy/economy_system.gd": true,
+  "scripts/economy/rating_system.gd": true
+}

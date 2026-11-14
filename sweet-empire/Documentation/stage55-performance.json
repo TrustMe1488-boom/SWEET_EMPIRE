@@ -1,0 +1,15 @@
+{
+  "audio_music": "rush",
+  "camera_packets": 50,
+  "draw_calls": 2435.0,
+  "frames": 180,
+  "mean_FPS": 51.5768179395634,
+  "mean_ms": 19.3885555555556,
+  "p95_ms": 23.975,
+  "pedestrians": 8,
+  "queue": 5,
+  "renderer": "AMD Radeon(TM) Graphics",
+  "resolution": "1920x1080",
+  "rush_mode": true,
+  "zones": 3
+}
