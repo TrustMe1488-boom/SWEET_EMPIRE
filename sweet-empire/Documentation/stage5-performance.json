@@ -1,0 +1,62 @@
+{
+  "adapter": "AMD Radeon(TM) Graphics",
+  "measurements": [
+    {
+      "case": "main_menu_1080p",
+      "draw_calls": 1229.0,
+      "frames": 120,
+      "mean_fps": 101.515027184878,
+      "mean_ms": 9.85075833333333,
+      "median_ms": 9.708,
+      "p95_ms": 11.865
+    },
+    {
+      "case": "shop_mia_outfit_1080p",
+      "draw_calls": 160.0,
+      "frames": 120,
+      "mean_fps": 175.473999140177,
+      "mean_ms": 5.69885,
+      "median_ms": 5.381,
+      "p95_ms": 7.148
+    },
+    {
+      "case": "shop_interior_theme_1080p",
+      "draw_calls": 939.0,
+      "frames": 120,
+      "mean_fps": 113.28920089574,
+      "mean_ms": 8.82696666666667,
+      "median_ms": 8.613,
+      "p95_ms": 10.76
+    },
+    {
+      "case": "shop_dessert_style_1080p",
+      "draw_calls": 88.0,
+      "frames": 120,
+      "mean_fps": 173.399880354083,
+      "mean_ms": 5.76701666666666,
+      "median_ms": 5.722,
+      "p95_ms": 7.271
+    },
+    {
+      "case": "bakery_gold_festive_lavender_1080p",
+      "draw_calls": 2208.0,
+      "frames": 120,
+      "mean_fps": 69.8049417245078,
+      "mean_ms": 14.3256333333333,
+      "median_ms": 14.417,
+      "p95_ms": 15.345
+    },
+    {
+      "case": "shop_with_retained_bakery_1080p",
+      "draw_calls": 160.0,
+      "frames": 120,
+      "mean_fps": 175.79120692383,
+      "mean_ms": 5.68856666666667,
+      "median_ms": 5.466,
+      "p95_ms": 6.913
+    }
+  ],
+  "renderer": "Compatibility",
+  "resolution": "1920x1080",
+  "vsync": false
+}

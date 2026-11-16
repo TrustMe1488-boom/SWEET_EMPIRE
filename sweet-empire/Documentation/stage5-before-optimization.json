@@ -1,0 +1,1 @@
+{"case":"bakery_gold_festive_lavender_1080p","frames":120,"mean_ms":20.6460666666667,"mean_fps":48.4353759069524,"draw_calls":3030,"change":"Merged decorative product primitives by material and cached the ArrayMesh per product/style"}

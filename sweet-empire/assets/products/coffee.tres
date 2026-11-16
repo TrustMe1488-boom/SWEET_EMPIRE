@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ProductDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/production/product_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"COFFEE"
+display_name = "Кофе"
+sale_price = 20
+base_time = 6.0
+icon_kind = "coffee"
+station_id = &"CoffeeMachine"
+station_name = "Кофемашина"
+purchase_cost = 200
+hire_cost = 100
+upgrade_factor = 2
+zone = 2
+world_position = Vector3(-3.8, 0, -8)
+visual_scene = "res://scenes/visuals/coffee_machine.tscn"

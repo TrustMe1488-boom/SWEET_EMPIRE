@@ -1,0 +1,17 @@
+{
+  "tests/render_check.gd": true,
+  "tests/run_tests.gd": true,
+  "tests/stage15_visual_qa.gd": true,
+  "tests/stage15_visual_tests.gd": true,
+  "tests/stage2_render_qa.gd": true,
+  "tests/stage2_tests.gd": true,
+  "project.godot": true,
+  "assets/products/cake.tres": true,
+  "assets/products/coffee.tres": true,
+  "assets/products/cookie.tres": true,
+  "assets/products/cupcake.tres": true,
+  "scripts/customers/queue_manager.gd": true,
+  "scripts/checkout/sale_processor.gd": true,
+  "scripts/economy/rating_system.gd": true,
+  "scripts/delivery/delivery_service.gd": true
+}

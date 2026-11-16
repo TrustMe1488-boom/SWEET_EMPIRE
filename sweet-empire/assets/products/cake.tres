@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ProductDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/production/product_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"CAKE"
+display_name = "Торт"
+sale_price = 80
+base_time = 15.0
+icon_kind = "cake"
+station_id = &"CakeStation"
+station_name = "Станция тортов"
+purchase_cost = 1500
+hire_cost = 400
+upgrade_factor = 4
+zone = 3
+world_position = Vector3(-1, 0, -13)
+visual_scene = "res://scenes/visuals/cake_station.tscn"

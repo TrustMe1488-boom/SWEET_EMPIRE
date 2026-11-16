@@ -1,0 +1,189 @@
+{
+  "version": "1.0.0-dev.1",
+  "release_ready": false,
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "artifact_directory": ".local\\testing\\python\\f15499aca9bc4dbd8b4fc9b3bd04d197",
+  "suites": [
+    {
+      "suite": "run_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 48,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage15_visual_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 20,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage2_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 112,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage3_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 101,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage3_campaign_sim",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 10,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage4_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 42,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage4_campaign_sim",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 10,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage5_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 81,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage5_campaign_sim",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 14,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage55_economy_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 24,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage55_demand_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 11,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage55_input_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 24,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stage55_progression_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 16,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "stabilization_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 30,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "persistence_restart_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 5,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    },
+    {
+      "suite": "ui_interaction_tests",
+      "status": "FAIL",
+      "exit_code": 0,
+      "assertions_passed": 4,
+      "assertions_failed": 0,
+      "reasons": [
+        "Critical stderr: ERROR: Failed to read the root certificate store.",
+        "Critical godot: ERROR: Failed to read the root certificate store."
+      ]
+    }
+  ],
+  "assertions_passed": 552,
+  "windows_export": "BLOCKED: export templates missing",
+  "camera": "NOT RUN",
+  "worker": "NOT RUN",
+  "gpu": "NOT RUN"
+}

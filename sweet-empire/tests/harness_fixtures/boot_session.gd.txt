@@ -1,0 +1,38 @@
+extends Node
+func _ready(): run.call_deferred()
+func run():
+ var session = get_node("/root/GameSession")
+ var restored: bool = not session.pending_game.is_empty()
+ var menu: Control = load("res://scenes/main_menu.tscn").instantiate()
+ get_tree().root.add_child(menu)
+ var continue_button: Button = menu.find_child("ContinueButton",true,false)
+ var settings_ok: bool = continue_button.disabled != restored
+ if not restored:
+  get_node("/root/AudioHub").set_master(0.42)
+  get_node("/root/AudioHub").set_gain("Music",0.3)
+  session.settings.resolution = Vector2i(1600,900)
+  settings_ok = settings_ok and session.save_settings()
+ else:
+  settings_ok = settings_ok and is_equal_approx(float(session.settings.get("master",0)),0.42) and is_equal_approx(float(get_node("/root/AudioHub").gains.Music),0.3) and session.settings.get("resolution")==Vector2i(1600,900)
+ settings_ok = settings_ok and FileAccess.file_exists("user://settings.cfg")
+ menu.queue_free()
+ var shop_ok: bool = true
+ if restored and not session.cosmetics.owns(&"INTERIOR_MINT"):
+  shop_ok = session.cosmetics.purchase(&"INTERIOR_MINT") and session.cosmetics.equip(&"INTERIOR_MINT")
+ get_tree().current_scene = null
+ session.start_or_continue()
+ for i in 10:
+  await get_tree().process_frame
+  if session.has_game(): break
+ var ok: bool = session.has_game()
+ if ok:
+  var game = session.active_game
+  if not restored:
+   game.economy.grant_reward("boot",123)
+   session.wallet.grant_once("boot",100)
+   ok = session.cosmetics.purchase(&"MIA_MINT") and session.cosmetics.equip(&"MIA_MINT")
+  ok = ok and settings_ok and shop_ok and game.economy.coins==123 and session.cosmetics.owns(&"MIA_MINT") and session.cosmetics.active("MIA_OUTFIT").id==&"MIA_MINT" and session.wallet.balance==(50 if restored else 80)
+  ok = ok and session.save_progress()
+ print("BOOT_RESTORED: ",restored)
+ print("BOOT_RESULT: %d passed, %d failed" % [1 if ok else 0,0 if ok else 1])
+ get_tree().quit(0 if ok else 1)

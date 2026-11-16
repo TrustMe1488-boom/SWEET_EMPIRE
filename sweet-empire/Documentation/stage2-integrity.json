@@ -1,0 +1,14 @@
+{
+  "tests/run_tests.gd": true,
+  "tests/stage15_visual_tests.gd": true,
+  "tests/stage15_visual_qa.gd": true,
+  "tests/render_check.gd": true,
+  "project.godot": true,
+  "assets/equipment/cookie_production.tres": true,
+  "scripts/customers/queue_manager.gd": true,
+  "scripts/customers/customer_spawner.gd": true,
+  "scripts/economy/rating_system.gd": true,
+  "scripts/player/tray_inventory.gd": true,
+  "scripts/checkout/checkout_inventory.gd": true,
+  "scripts/delivery/delivery_service.gd": true
+}

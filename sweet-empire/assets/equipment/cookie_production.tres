@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="ProductionConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/production/production_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+seconds_per_cookie = 4.0
+capacity = 5

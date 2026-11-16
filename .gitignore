@@ -1,0 +1,46 @@
+# Godot generated cache; source scenes/resources/scripts and import descriptors stay tracked.
+.godot/
+**/android/build/
+/build/
+/builds/
+/dist/
+/export/
+/exports/
+*.exe
+*.pck
+*.zip
+*.tmp
+*.bak
+*~
+*.log
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+# Legacy generated caches
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+.local/
+
+# Local staging and generated release builds
+/sweet-empire/.upload-stage/
+/sweet-empire/.upload_prepare.py
+/sweet-empire/Builds/
+/sweet-empire/Submission/Builds/

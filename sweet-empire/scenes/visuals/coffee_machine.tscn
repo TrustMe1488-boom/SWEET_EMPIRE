@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/visuals/equipment_visual.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/visuals/equipment_animator.gd" id="2"]
+[node name="coffee_machine" type="Node3D"]
+script = ExtResource("1")
+kind = "coffee"
+[node name="VisualRoot" type="Node3D" parent="."]
+[node name="CollisionRoot" type="Node3D" parent="."]
+[node name="CustomizationRoot" type="Node3D" parent="VisualRoot"]
+[node name="AnimationController" type="Node" parent="."]
+script = ExtResource("2")

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/chibi_character.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "lavender"
+primary = Color(0.8705882, 0.8313725, 0.9215686, 1)
+secondary = Color(0.7333333, 0.6509804, 0.8431373, 1)
+accent = Color(0.9529412, 0.772549, 0.8352941, 1)
+trim = Color(0.945098, 0.8627451, 0.6980392, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"MIA_LAVENDER"
+display_name = "Лавандовая Мия"
+description = "Лавандовая форма с жемчужными пуговицами и цветочным украшением."
+category = "MIA_OUTFIT"
+price = 40
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 3.0
+preview_rotation_speed = 0.18

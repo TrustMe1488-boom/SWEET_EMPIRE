@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "products": [
+    "COOKIE",
+    "COFFEE",
+    "CUPCAKE",
+    "CAKE"
+  ],
+  "base_times": [
+    4,
+    6,
+    9,
+    15
+  ],
+  "types": {
+    "NORMAL": {
+      "patience": 20,
+      "share": 0.5,
+      "weights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "IMPATIENT": {
+      "patience": 10,
+      "share": 0.25,
+      "weights": [
+        1.6,
+        1.3,
+        0.7,
+        0.4
+      ]
+    },
+    "SWEET_TOOTH": {
+      "patience": 25,
+      "share": 0.25,
+      "weights": [
+        1,
+        0.6,
+        1.8,
+        2.2
+      ]
+    }
+  }
+}

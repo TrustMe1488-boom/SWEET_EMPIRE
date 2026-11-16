@@ -1,0 +1,285 @@
+﻿{
+    "schemaVersion":  1,
+    "suites":  [
+                   {
+                       "id":  "run_tests",
+                       "script":  "tests/run_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage15_visual_tests",
+                       "script":  "tests/stage15_visual_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "PRESENTATION_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage2_tests",
+                       "script":  "tests/stage2_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE2_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage3_tests",
+                       "script":  "tests/stage3_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE3_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage3_campaign_sim",
+                       "script":  "tests/stage3_campaign_sim.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "CAMPAIGN_SIM_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage4_tests",
+                       "script":  "tests/stage4_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE4_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage4_campaign_sim",
+                       "script":  "tests/stage4_campaign_sim.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE4_CAMPAIGN_SIM_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage5_tests",
+                       "script":  "tests/stage5_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE5_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage5_campaign_sim",
+                       "script":  "tests/stage5_campaign_sim.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE5_CAMPAIGN_SIM_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage55_economy_tests",
+                       "script":  "tests/stage55_economy_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE55_ECON_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage55_demand_tests",
+                       "script":  "tests/stage55_demand_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE55_DEMAND_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage55_input_tests",
+                       "script":  "tests/stage55_input_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE55_INPUT_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage55_progression_tests",
+                       "script":  "tests/stage55_progression_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STAGE55_PROGRESS_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "render_check",
+                       "script":  "tests/render_check.gd",
+                       "mode":  "gpu",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage15_visual_qa",
+                       "script":  "tests/stage15_visual_qa.gd",
+                       "mode":  "gpu",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage2_render_qa",
+                       "script":  "tests/stage2_render_qa.gd",
+                       "mode":  "gpu",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage3_render_qa",
+                       "script":  "tests/stage3_render_qa.gd",
+                       "mode":  "gpu",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage4_render_qa",
+                       "script":  "tests/stage4_render_qa.gd",
+                       "mode":  "gpu",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage5_render_qa",
+                       "script":  "tests/stage5_render_qa.gd",
+                       "mode":  "gpu",
+                       "enabled":  true,
+                       "marker":  "STAGE5_GPU_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stage55_ipc_tests",
+                       "script":  "tests/stage55_ipc_tests.gd",
+                       "mode":  "ipc",
+                       "enabled":  false,
+                       "marker":  "UNSUPPORTED_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  "Existing suite has no numeric total-check RESULT; blocked until separately approved suite changes."
+                   },
+                   {
+                       "id":  "stage55_render_qa",
+                       "script":  "tests/stage55_render_qa.gd",
+                       "mode":  "camera",
+                       "enabled":  true,
+                       "marker":  "STAGE55_GPU_RESULT",
+                       "format":  "checks",
+                       "timeoutSeconds":  300,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "stabilization_tests",
+                       "script":  "tests/stabilization_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STABILIZATION_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "persistence_restart_tests",
+                       "script":  "tests/persistence_restart_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "PERSISTENCE_RESTART_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "ui_interaction_tests",
+                       "script":  "tests/ui_interaction_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "UI_INTERACTION_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "sophie_layout_tests",
+                       "script":  "tests/sophie_layout_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "SOPHIE_LAYOUT_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "menu_settings_tests",
+                       "script":  "tests/menu_settings_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "MENU_SETTINGS_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "main_menu_layout_tests",
+                       "script":  "tests/main_menu_layout_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "MAIN_MENU_LAYOUT_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   },
+                   {
+                       "id":  "station_lifecycle_tests",
+                       "script":  "tests/station_lifecycle_tests.gd",
+                       "mode":  "headless",
+                       "enabled":  true,
+                       "marker":  "STATION_LIFECYCLE_RESULT",
+                       "format":  "counts",
+                       "timeoutSeconds":  60,
+                       "reason":  ""
+                   }
+               ]
+}

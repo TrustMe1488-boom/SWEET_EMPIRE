@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CosmeticDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/cosmetics/cosmetic_style.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/visuals/chibi_character.tscn" id="3"]
+
+[sub_resource type="Resource" id="Style"]
+script = ExtResource("2")
+detail = "royal"
+primary = Color(0.7333333, 0.6509804, 0.8431373, 1)
+secondary = Color(0.9529412, 0.772549, 0.8352941, 1)
+accent = Color(0.9058824, 0.7686275, 0.4784314, 1)
+trim = Color(0.9058824, 0.7686275, 0.4784314, 1)
+
+[resource]
+script = ExtResource("1")
+id = &"MIA_ROYAL"
+display_name = "Королевский кондитер"
+description = "Геометрический костюм: корона, пышные рукава и золотая отделка."
+category = "MIA_OUTFIT"
+price = 50
+is_free = false
+style = SubResource("Style")
+visual_scene = ExtResource("3")
+preview_camera_size = 3.0
+preview_rotation_speed = 0.18
